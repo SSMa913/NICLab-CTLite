@@ -1,0 +1,28 @@
+{
+  "dataset": "HumanActivity",
+  "channels": 12,
+  "rank": 1,
+  "width": 8,
+  "rates": [
+    0.0,
+    1.0,
+    4.0,
+    16.0,
+    64.0
+  ],
+  "learning_rate": 0.01,
+  "batch_size": 16,
+  "weight_decay": 0.0001,
+  "epochs": 200,
+  "patience": 30,
+  "validation_batch_size": 128,
+  "encoding_batch_size": 256,
+  "seeds": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028
+  ],
+  "parameters": 365
+}

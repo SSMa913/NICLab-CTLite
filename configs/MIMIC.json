@@ -1,0 +1,28 @@
+{
+  "dataset": "MIMIC",
+  "channels": 96,
+  "rank": 4,
+  "width": 8,
+  "rates": [
+    0.0,
+    2.0,
+    8.0,
+    32.0,
+    128.0
+  ],
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "weight_decay": 0.0001,
+  "epochs": 200,
+  "patience": 30,
+  "validation_batch_size": 128,
+  "encoding_batch_size": 256,
+  "seeds": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028
+  ],
+  "parameters": 2537
+}

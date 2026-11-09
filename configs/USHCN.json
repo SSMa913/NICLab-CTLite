@@ -1,0 +1,25 @@
+{
+  "dataset": "USHCN",
+  "channels": 5,
+  "rank": 1,
+  "width": 2,
+  "rates": [
+    0.0,
+    8.0
+  ],
+  "learning_rate": 0.0003,
+  "batch_size": 4,
+  "weight_decay": 0.01,
+  "epochs": 200,
+  "patience": 30,
+  "validation_batch_size": 128,
+  "encoding_batch_size": 256,
+  "seeds": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028
+  ],
+  "parameters": 88
+}

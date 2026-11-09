@@ -1,0 +1,502 @@
+{
+  "HumanActivity": {
+    "train": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/exp33_cross_backbone/data/HumanActivity/train.pt",
+      "source_sha256": "acce9609f6486283119a6361b385b907ddb7b67afda64ae6fdb5099c29f022c2",
+      "released_file": "data/HumanActivity/train.npz",
+      "npz_sha256": "aed220658a85ffd80aaf4a285bc9738db03d71e5211d75077f8074d5ba6c2496",
+      "records": 949,
+      "observed_targets": 25872,
+      "padded_shapes": {
+        "x": [
+          949,
+          98,
+          12
+        ],
+        "x_mask": [
+          949,
+          98,
+          12
+        ],
+        "x_mark": [
+          949,
+          98,
+          1
+        ],
+        "y": [
+          949,
+          11,
+          12
+        ],
+        "y_mask": [
+          949,
+          11,
+          12
+        ],
+        "y_mark": [
+          949,
+          11,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    },
+    "val": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/exp33_cross_backbone/data/HumanActivity/val.pt",
+      "source_sha256": "594682af1bc5b6c8d44594ddce9b2dfadca09c41a4d30f141096d96cbe259867",
+      "released_file": "data/HumanActivity/val.npz",
+      "npz_sha256": "a9e35087907e2a284b2058610263602193b4b19223f7b5c57615b0076bec9a03",
+      "records": 193,
+      "observed_targets": 5205,
+      "padded_shapes": {
+        "x": [
+          193,
+          97,
+          12
+        ],
+        "x_mask": [
+          193,
+          97,
+          12
+        ],
+        "x_mark": [
+          193,
+          97,
+          1
+        ],
+        "y": [
+          193,
+          11,
+          12
+        ],
+        "y_mask": [
+          193,
+          11,
+          12
+        ],
+        "y_mark": [
+          193,
+          11,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    },
+    "test": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/exp33_cross_backbone/data/HumanActivity/test.pt",
+      "source_sha256": "b67ab705402064d863285de8d34e929cfefcdd1c937203c61583e4569fc516df",
+      "released_file": "data/HumanActivity/test.npz",
+      "npz_sha256": "8cd51bdd8852d52582578a435238f06d209351bd10ae355e3b0b63acd1c116ee",
+      "records": 218,
+      "observed_targets": 5910,
+      "padded_shapes": {
+        "x": [
+          218,
+          97,
+          12
+        ],
+        "x_mask": [
+          218,
+          97,
+          12
+        ],
+        "x_mark": [
+          218,
+          97,
+          1
+        ],
+        "y": [
+          218,
+          11,
+          12
+        ],
+        "y_mask": [
+          218,
+          11,
+          12
+        ],
+        "y_mark": [
+          218,
+          11,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    }
+  },
+  "USHCN": {
+    "train": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/exp33_cross_backbone/data/USHCN/train.pt",
+      "source_sha256": "64ae3593845c6da4f117a8e800e03b717088fb52ee62f24c0b48965341b951f1",
+      "released_file": "data/USHCN/train.npz",
+      "npz_sha256": "cfbd13d830e55606f8d13f9922cfea335c462f66bfd8af2984ac7a5e151a3c43",
+      "records": 901,
+      "observed_targets": 2964,
+      "padded_shapes": {
+        "x": [
+          901,
+          287,
+          5
+        ],
+        "x_mask": [
+          901,
+          287,
+          5
+        ],
+        "x_mark": [
+          901,
+          287,
+          1
+        ],
+        "y": [
+          901,
+          3,
+          5
+        ],
+        "y_mask": [
+          901,
+          3,
+          5
+        ],
+        "y_mark": [
+          901,
+          3,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    },
+    "val": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/exp33_cross_backbone/data/USHCN/val.pt",
+      "source_sha256": "f5998b68cb9e5b8bc3e97b939e124a329d559b3eaccfc6243228902e796d9ce1",
+      "released_file": "data/USHCN/val.npz",
+      "npz_sha256": "c3c59f90cde9b12fba1154f6aca6bd615de692ccdc5146e48b50f7fd1e407e68",
+      "records": 101,
+      "observed_targets": 334,
+      "padded_shapes": {
+        "x": [
+          101,
+          273,
+          5
+        ],
+        "x_mask": [
+          101,
+          273,
+          5
+        ],
+        "x_mark": [
+          101,
+          273,
+          1
+        ],
+        "y": [
+          101,
+          3,
+          5
+        ],
+        "y_mask": [
+          101,
+          3,
+          5
+        ],
+        "y_mark": [
+          101,
+          3,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    },
+    "test": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/exp33_cross_backbone/data/USHCN/test.pt",
+      "source_sha256": "c19c4da735ff8e88a95c5f2f95cf26a3e1dad78d4d7db6ae107f0a82cace623e",
+      "released_file": "data/USHCN/test.npz",
+      "npz_sha256": "fa252399625b640b363ddfd3a7815029e32a9c5778b93d682720515de31d4757",
+      "records": 112,
+      "observed_targets": 368,
+      "padded_shapes": {
+        "x": [
+          112,
+          280,
+          5
+        ],
+        "x_mask": [
+          112,
+          280,
+          5
+        ],
+        "x_mark": [
+          112,
+          280,
+          1
+        ],
+        "y": [
+          112,
+          3,
+          5
+        ],
+        "y_mask": [
+          112,
+          3,
+          5
+        ],
+        "y_mark": [
+          112,
+          3,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    }
+  },
+  "PhysioNet": {
+    "train": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/trcf_identity_loss_4data_v1/data/P12/train.pt",
+      "source_sha256": "f9edaa2f6705136a1e9f82341ef5139af23ff3509f3a9720f94a9e51ba3b1450",
+      "released_file": "data/PhysioNet/train.npz",
+      "npz_sha256": "dce4133b1b78e100696a82576c3757dd5ffd642f2670140882a60c587888c84c",
+      "records": 9703,
+      "observed_targets": 217124,
+      "padded_shapes": {
+        "x": [
+          9703,
+          36,
+          36
+        ],
+        "x_mask": [
+          9703,
+          36,
+          36
+        ],
+        "x_mark": [
+          9703,
+          36,
+          1
+        ],
+        "y": [
+          9703,
+          3,
+          36
+        ],
+        "y_mask": [
+          9703,
+          3,
+          36
+        ],
+        "y_mark": [
+          9703,
+          3,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    },
+    "val": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/trcf_identity_loss_4data_v1/data/P12/val.pt",
+      "source_sha256": "a30fa1ca8c98b1616b071c0acae402a1f6e6f25cc61636059842e8c569487e53",
+      "released_file": "data/PhysioNet/val.npz",
+      "npz_sha256": "ba2445000f7a731c565cc081e806cad0289545835429290a87d92b2ae3eed3f0",
+      "records": 1079,
+      "observed_targets": 24061,
+      "padded_shapes": {
+        "x": [
+          1079,
+          36,
+          36
+        ],
+        "x_mask": [
+          1079,
+          36,
+          36
+        ],
+        "x_mark": [
+          1079,
+          36,
+          1
+        ],
+        "y": [
+          1079,
+          3,
+          36
+        ],
+        "y_mask": [
+          1079,
+          3,
+          36
+        ],
+        "y_mark": [
+          1079,
+          3,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    },
+    "test": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/trcf_mixed_loss_confirmation_v2/test_data/P12/test.pt",
+      "source_sha256": "e774ac194f9e877942ed82531ac235cd80e9020e648a6bb834d7de975c395048",
+      "released_file": "data/PhysioNet/test.npz",
+      "npz_sha256": "c7da647b95a9460fbea4591cf28d5242d6ad94085a1bc7ba7239a64084a1ef60",
+      "records": 1199,
+      "observed_targets": 27008,
+      "padded_shapes": {
+        "x": [
+          1199,
+          36,
+          36
+        ],
+        "x_mask": [
+          1199,
+          36,
+          36
+        ],
+        "x_mark": [
+          1199,
+          36,
+          1
+        ],
+        "y": [
+          1199,
+          3,
+          36
+        ],
+        "y_mask": [
+          1199,
+          3,
+          36
+        ],
+        "y_mark": [
+          1199,
+          3,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    }
+  },
+  "MIMIC": {
+    "train": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/exp33_cross_backbone/data/MIMIC_III/train.pt",
+      "source_sha256": "155f205dba1884530317c2558d80cc0a368fb37c0f0c756ca1ca1d141ee82c6f",
+      "released_file": null,
+      "npz_sha256": "24de9af8c00f99a2db55d12341a36ac2a751121964e8ced6e539e33048462241",
+      "records": 17212,
+      "observed_targets": 187419,
+      "padded_shapes": {
+        "x": [
+          17212,
+          72,
+          96
+        ],
+        "x_mask": [
+          17212,
+          72,
+          96
+        ],
+        "x_mark": [
+          17212,
+          72,
+          1
+        ],
+        "y": [
+          17212,
+          3,
+          96
+        ],
+        "y_mask": [
+          17212,
+          3,
+          96
+        ],
+        "y_mark": [
+          17212,
+          3,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    },
+    "val": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/exp33_cross_backbone/data/MIMIC_III/val.pt",
+      "source_sha256": "0ac6acbbd326ae080c7b65e8a98d5d3d55d6f643eb2ab2926313dd62a698bb45",
+      "released_file": null,
+      "npz_sha256": "b4684ee6c4b0d77268b2cca70a2fd3295d41b6d59aba55e002abdeb90fa23926",
+      "records": 1913,
+      "observed_targets": 20874,
+      "padded_shapes": {
+        "x": [
+          1913,
+          72,
+          96
+        ],
+        "x_mask": [
+          1913,
+          72,
+          96
+        ],
+        "x_mark": [
+          1913,
+          72,
+          1
+        ],
+        "y": [
+          1913,
+          3,
+          96
+        ],
+        "y_mask": [
+          1913,
+          3,
+          96
+        ],
+        "y_mark": [
+          1913,
+          3,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    },
+    "test": {
+      "source_cache": "APN_datasets_20260929/project/results/ci_vs_cd/exp33_cross_backbone/data/MIMIC_III/test.pt",
+      "source_sha256": "ccfb0b832e16ef5b650d73f4f6cbf0b5351811011b09619f22b18398cd3b4825",
+      "released_file": null,
+      "npz_sha256": "fac6a014d71ee181379fdb0afe6529538b6e1534cf8e645252f347d43e29d8a0",
+      "records": 2125,
+      "observed_targets": 23015,
+      "padded_shapes": {
+        "x": [
+          2125,
+          72,
+          96
+        ],
+        "x_mask": [
+          2125,
+          72,
+          96
+        ],
+        "x_mark": [
+          2125,
+          72,
+          1
+        ],
+        "y": [
+          2125,
+          3,
+          96
+        ],
+        "y_mask": [
+          2125,
+          3,
+          96
+        ],
+        "y_mark": [
+          2125,
+          3,
+          1
+        ]
+      },
+      "six_fields_exact": true
+    }
+  }
+}
