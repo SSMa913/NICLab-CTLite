@@ -1,6 +1,6 @@
 # CTLite: Continuous-Time Lightweight Forecasting
 
-A compact implementation of CTLite and the four-dataset accuracy comparison in Table I. The release contains the full CTLite model, fixed experiment configurations, five-seed training scripts, public benchmark splits, and archived experiment evidence. It does not include hyperparameter searches, ablations, visualization code, or efficiency experiments.
+A compact implementation of CTLite and the four-dataset accuracy comparison in Table I. The release contains the full CTLite model, fixed experiment configurations, five-seed training scripts, public benchmark splits, and archived experiment evidence. 
 
 ## Installation
 
