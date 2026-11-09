@@ -1,0 +1,217 @@
+{
+  "environment": {
+    "torch": "2.5.1+cu124",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "tf32": false
+  },
+  "results": {
+    "HumanActivity": {
+      "2024": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.042598774711492704,
+          "mae": 0.11712769380882508,
+          "points": 5910
+        }
+      },
+      "2025": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.04217394782000185,
+          "mae": 0.1163306841390387,
+          "points": 5910
+        }
+      },
+      "2026": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.04417731838581324,
+          "mae": 0.1171223338687077,
+          "points": 5910
+        }
+      },
+      "2027": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.041547436399508246,
+          "mae": 0.11603128139541032,
+          "points": 5910
+        }
+      },
+      "2028": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.042301357417744025,
+          "mae": 0.11697955704380816,
+          "points": 5910
+        }
+      }
+    },
+    "USHCN": {
+      "2024": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.16603082159291144,
+          "mae": 0.27290456191353174,
+          "points": 368
+        }
+      },
+      "2025": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.16497825539630392,
+          "mae": 0.2685816391654637,
+          "points": 368
+        }
+      },
+      "2026": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.16475509560626486,
+          "mae": 0.2691272445346998,
+          "points": 368
+        }
+      },
+      "2027": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.16468680423239004,
+          "mae": 0.27367596004320227,
+          "points": 368
+        }
+      },
+      "2028": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.16367106852324112,
+          "mae": 0.2691141833429751,
+          "points": 368
+        }
+      }
+    },
+    "PhysioNet": {
+      "2024": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.2873378952532583,
+          "mae": 0.3515161812587937,
+          "points": 27008
+        }
+      },
+      "2025": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.28762869812300984,
+          "mae": 0.3529512305960271,
+          "points": 27008
+        }
+      },
+      "2026": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.28775727692373554,
+          "mae": 0.3536476749944461,
+          "points": 27008
+        }
+      },
+      "2027": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.2877212271306187,
+          "mae": 0.35337312526612485,
+          "points": 27008
+        }
+      },
+      "2028": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.28766416938384,
+          "mae": 0.3517644077680687,
+          "points": 27008
+        }
+      }
+    },
+    "MIMIC": {
+      "2024": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.4055615478356507,
+          "mae": 0.38371366160656095,
+          "points": 23015
+        }
+      },
+      "2025": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.4047760122474473,
+          "mae": 0.3851852307598305,
+          "points": 23015
+        }
+      },
+      "2026": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.4035611965022811,
+          "mae": 0.38341214289593745,
+          "points": 23015
+        }
+      },
+      "2027": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.4054952697289811,
+          "mae": 0.3853609398761677,
+          "points": 23015
+        }
+      },
+      "2028": {
+        "initialization_exact": true,
+        "forward_exact": true,
+        "gradients_exact": true,
+        "test": {
+          "mse": 0.40440367525255266,
+          "mae": 0.3842474507114925,
+          "points": 23015
+        }
+      }
+    }
+  }
+}

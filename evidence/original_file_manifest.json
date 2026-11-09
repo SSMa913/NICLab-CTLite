@@ -1,0 +1,182 @@
+[
+  {
+    "dataset": "HumanActivity",
+    "seed": 2024,
+    "original_result": "results/CTLite/four_capacity_20261009/fits/HumanActivity/t02/2024/result.json",
+    "result_sha256": "bbaf8b332871999730283b8dc5084983185c1f9ab787c4192c6fa336b44d2305",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/HumanActivity/seed_2024.pt",
+    "checkpoint_sha256": "7375b732de92fab498fafd70625757b73be1a931bcc56ae40afae022daf02e6d",
+    "released_checkpoint": "evidence/checkpoints/HumanActivity/seed_2024.pt"
+  },
+  {
+    "dataset": "HumanActivity",
+    "seed": 2025,
+    "original_result": "results/CTLite/four_capacity_20261009/fits/HumanActivity/t02/2025/result.json",
+    "result_sha256": "6fb8946b88c5955088f571de3ab8f2a4fad728f39e2200191024c50de6ced30a",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/HumanActivity/seed_2025.pt",
+    "checkpoint_sha256": "cac88f28459929bda806b71e071525409e64c506612ce752307fa6f1fad9c720",
+    "released_checkpoint": "evidence/checkpoints/HumanActivity/seed_2025.pt"
+  },
+  {
+    "dataset": "HumanActivity",
+    "seed": 2026,
+    "original_result": "results/CTLite/four_capacity_20261009/fits/HumanActivity/t02/2026/result.json",
+    "result_sha256": "c2afd25925fe068ccaa8ec3d6fe1c73fb312ef063cdde51996b82552b0a2d82a",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/HumanActivity/seed_2026.pt",
+    "checkpoint_sha256": "c9ae104a9a3ba18285322ad34bde32ddf6329cfbffbeec978be55a7b6b1ab201",
+    "released_checkpoint": "evidence/checkpoints/HumanActivity/seed_2026.pt"
+  },
+  {
+    "dataset": "HumanActivity",
+    "seed": 2027,
+    "original_result": "results/CTLite/four_capacity_20261009/fits/HumanActivity/t02/2027/result.json",
+    "result_sha256": "c55177de230a0910e0aaf25b0ac8a955aca81dd69971f61b640c7fdd385ba8aa",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/HumanActivity/seed_2027.pt",
+    "checkpoint_sha256": "4da5061044d3f869c3c0977aad278daf780f855a6f33366445141441b3c05e7a",
+    "released_checkpoint": "evidence/checkpoints/HumanActivity/seed_2027.pt"
+  },
+  {
+    "dataset": "HumanActivity",
+    "seed": 2028,
+    "original_result": "results/CTLite/four_capacity_20261009/fits/HumanActivity/t02/2028/result.json",
+    "result_sha256": "04375294ca1aea9573d8bd3cb779594485d7dc179b5aed249c616b3b9b645656",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/HumanActivity/seed_2028.pt",
+    "checkpoint_sha256": "5b4b8f6020f25d1d53d8c7ddc021d17c66e13146e89a0a388469f7cdaf0d79d6",
+    "released_checkpoint": "evidence/checkpoints/HumanActivity/seed_2028.pt"
+  },
+  {
+    "dataset": "USHCN",
+    "seed": 2024,
+    "original_result": "results/CTLite/constant_lr_20261009/fits/USHCN/lr0/2024/result.json",
+    "result_sha256": "22d80dfffc6b615a07d62bc6587157e8e45d563468bd05bbf1a5ef02a1939787",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/USHCN/seed_2024.pt",
+    "checkpoint_sha256": "38a12f60a32c0e42cee7a23b1079133d2541377e13f87ecb34a6fc89e7e1552a",
+    "released_checkpoint": "evidence/checkpoints/USHCN/seed_2024.pt"
+  },
+  {
+    "dataset": "USHCN",
+    "seed": 2025,
+    "original_result": "results/CTLite/constant_lr_20261009/fits/USHCN/lr0/2025/result.json",
+    "result_sha256": "daba9f96bf0d5e2f1edca5951584cfa075cc81653cb6846868b029b17cc04cda",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/USHCN/seed_2025.pt",
+    "checkpoint_sha256": "bade44967037831785de880aa8a5663c99969f3589c31dd7fd9e9774faa07ecd",
+    "released_checkpoint": "evidence/checkpoints/USHCN/seed_2025.pt"
+  },
+  {
+    "dataset": "USHCN",
+    "seed": 2026,
+    "original_result": "results/CTLite/constant_lr_20261009/fits/USHCN/lr0/2026/result.json",
+    "result_sha256": "3b4fb6f9913ba6bb9034b3d229ce33550c6b41e33e8eb9fe38533b4e8165ae73",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/USHCN/seed_2026.pt",
+    "checkpoint_sha256": "87889490236faf1d321ca816ec07e6473aad5c415d3bf68e25524308f8d54719",
+    "released_checkpoint": "evidence/checkpoints/USHCN/seed_2026.pt"
+  },
+  {
+    "dataset": "USHCN",
+    "seed": 2027,
+    "original_result": "results/CTLite/constant_lr_20261009/fits/USHCN/lr0/2027/result.json",
+    "result_sha256": "c655460fea301c6fc17c7efc94a9835a5bab71adef4367e2be796d2d0b8c92eb",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/USHCN/seed_2027.pt",
+    "checkpoint_sha256": "ac33994bfdc9c03d42deb5ac02d0f32214d3dc52f6330d0bef5621746163932b",
+    "released_checkpoint": "evidence/checkpoints/USHCN/seed_2027.pt"
+  },
+  {
+    "dataset": "USHCN",
+    "seed": 2028,
+    "original_result": "results/CTLite/constant_lr_20261009/fits/USHCN/lr0/2028/result.json",
+    "result_sha256": "a31ffe4fbe74c8a395eeeef019765415d7724b740579eba6301c3fdf116a8e63",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/USHCN/seed_2028.pt",
+    "checkpoint_sha256": "5c46b0c19c749786513504ac20991d2cc1e6151936741141eaf5430bc530b395",
+    "released_checkpoint": "evidence/checkpoints/USHCN/seed_2028.pt"
+  },
+  {
+    "dataset": "PhysioNet",
+    "seed": 2024,
+    "original_result": "results/CTLite/raw_adam_20261009/fits/P12/c05/2024/result.json",
+    "result_sha256": "bb857e61df57cad96d6ff2a37acd4e857c99dcb6d0ce84e2e610b3ccd35f3861",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/P12/seed_2024.pt",
+    "checkpoint_sha256": "40d8d131c53749cf486fbed039430445a167c845b5810ca0fa9ce3d714c195d2",
+    "released_checkpoint": "evidence/checkpoints/PhysioNet/seed_2024.pt"
+  },
+  {
+    "dataset": "PhysioNet",
+    "seed": 2025,
+    "original_result": "results/CTLite/raw_adam_20261009/fits/P12/c05/2025/result.json",
+    "result_sha256": "7dc2bcd7f126d11288b8faafa73d74eea06bd375423d290fe6759119f023492d",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/P12/seed_2025.pt",
+    "checkpoint_sha256": "369f6ec43b1cd7dcd17a0bdffa2b9d5b971b356b733739ec65c8419cb071a85d",
+    "released_checkpoint": "evidence/checkpoints/PhysioNet/seed_2025.pt"
+  },
+  {
+    "dataset": "PhysioNet",
+    "seed": 2026,
+    "original_result": "results/CTLite/raw_adam_20261009/fits/P12/c05/2026/result.json",
+    "result_sha256": "b915ee351ef70717a90d3f8361e220348523cf7f6c95f89ea189726acd114d9c",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/P12/seed_2026.pt",
+    "checkpoint_sha256": "f5373e6e731ee87c9ab675cb8583f132f557865ac74dd696e4aabe49677d8f83",
+    "released_checkpoint": "evidence/checkpoints/PhysioNet/seed_2026.pt"
+  },
+  {
+    "dataset": "PhysioNet",
+    "seed": 2027,
+    "original_result": "results/CTLite/raw_adam_20261009/fits/P12/c05/2027/result.json",
+    "result_sha256": "4c5d1e455203165a96e9d90c5213ac424a86d25d09284dfd3ad63f9c164b01c4",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/P12/seed_2027.pt",
+    "checkpoint_sha256": "4947755c37ef9571a9d96910942f6407a3e046b17549bde08317d91f8f20ef20",
+    "released_checkpoint": "evidence/checkpoints/PhysioNet/seed_2027.pt"
+  },
+  {
+    "dataset": "PhysioNet",
+    "seed": 2028,
+    "original_result": "results/CTLite/raw_adam_20261009/fits/P12/c05/2028/result.json",
+    "result_sha256": "48a90fc126f4dd017b2ad9424a87e5f86c1465bbcf73007580699cdd08c638d6",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/P12/seed_2028.pt",
+    "checkpoint_sha256": "465037a320a08fc5610366324b4463b32a8598ad888d452a1ca77503a6b885e3",
+    "released_checkpoint": "evidence/checkpoints/PhysioNet/seed_2028.pt"
+  },
+  {
+    "dataset": "MIMIC",
+    "seed": 2024,
+    "original_result": "results/CTLite/constant_lr_20261009/fits/MIMIC_III/lr2/2024/result.json",
+    "result_sha256": "986e7f7be37063790c136f5a60eeea690bdbba029dbbe573c4fa0cdaa94be8ef",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/MIMIC_III/seed_2024.pt",
+    "checkpoint_sha256": "fed0e845f7411d2de43bc558e582245cbb2dfb0110d7e86619842b44c97643d0",
+    "released_checkpoint": null
+  },
+  {
+    "dataset": "MIMIC",
+    "seed": 2025,
+    "original_result": "results/CTLite/constant_lr_20261009/fits/MIMIC_III/lr2/2025/result.json",
+    "result_sha256": "d0e5bb4cf0b7ce73efbffe223854c32413bb93ff76acbc9d1f3c0167b4b46b81",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/MIMIC_III/seed_2025.pt",
+    "checkpoint_sha256": "bb2d307ff05681fd6c946f64ef61001884fe00a7f936f7620029d872e820fe4b",
+    "released_checkpoint": null
+  },
+  {
+    "dataset": "MIMIC",
+    "seed": 2026,
+    "original_result": "results/CTLite/constant_lr_20261009/fits/MIMIC_III/lr2/2026/result.json",
+    "result_sha256": "372ce98f067b43183e6de209186c70b09360407b80ca098ecc0c901c503fae79",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/MIMIC_III/seed_2026.pt",
+    "checkpoint_sha256": "76b2b22155c5ebc8b9c8c4da8eb7bd16e55d4f041aec839bc4652f39547e699a",
+    "released_checkpoint": null
+  },
+  {
+    "dataset": "MIMIC",
+    "seed": 2027,
+    "original_result": "results/CTLite/constant_lr_20261009/fits/MIMIC_III/lr2/2027/result.json",
+    "result_sha256": "42793b985a1f845f912996b87b298e68fc91dd5f43a439cce8b860fa5f7e6d2a",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/MIMIC_III/seed_2027.pt",
+    "checkpoint_sha256": "7c4eec3547f3e98c56f3440ddc799270aa56307540c86402768daaf20cd7d1bf",
+    "released_checkpoint": null
+  },
+  {
+    "dataset": "MIMIC",
+    "seed": 2028,
+    "original_result": "results/CTLite/constant_lr_20261009/fits/MIMIC_III/lr2/2028/result.json",
+    "result_sha256": "b6056806d7520c2fc4a11f2004d10a5c4aa70a65c401a63b8807c857e56c3a74",
+    "original_checkpoint": "results/CTLite/constant_lr_20261009/deploy/MIMIC_III/seed_2028.pt",
+    "checkpoint_sha256": "2f9dad5aadaf7f5f43eb58eaed43ebca3ac4b56a634c7c59a912048747e8d047",
+    "released_checkpoint": null
+  }
+]

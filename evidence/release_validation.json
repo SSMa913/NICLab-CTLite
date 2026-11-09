@@ -1,0 +1,414 @@
+{
+  "date": "2026-10-15",
+  "environment": {
+    "python": "3.10.15",
+    "torch": "2.5.1+cu124",
+    "numpy": "2.1.3",
+    "device": "NVIDIA GeForce RTX 3090",
+    "cuda": "12.4",
+    "threads": 4,
+    "tf32": false
+  },
+  "training_runs": 20,
+  "protocol": "Standalone scripts, five seeds per dataset, scratch training, raw Adam, constant learning rate, observed-entry MSE",
+  "input_format": "lossless NPZ benchmark tensors",
+  "mimic_csv_to_original_cache_hash_match": {
+    "train": true,
+    "val": true,
+    "test": true
+  },
+  "max_absolute_test_metric_difference": 0.0,
+  "all_selected_weights_exact": true,
+  "all_validation_histories_exact": true,
+  "tested_training_code_sha256": {
+    "table1.py": "d57765d657d77b55a3c6db685f749601f4675280688c82e101df7b0c0716cc19",
+    "import_mimic.py": "e985cc92eb3b42c8a6496a7aec9277b2eca89823b6a2e178ffcae77c33ebda34",
+    "data.py": "cd03efa70e0a3cd884643c66c0234ce8942298285b42c32b8a6af4966a89a04a",
+    "train.py": "fc08786f45a96812524a14cb7d36bd68a6b80ba888bcc4910689e2091342ae4e",
+    "model.py": "b036453a6a771b95bdfeeb05000b7e68af513769e5f54f703856db22d1240a3e",
+    "__init__.py": "096f84c16687a2328f6559b8aa6af52d5099d997c7f82b32dcdfc7a4d25676fa"
+  },
+  "note": "Final packaging added input-hash enforcement, verification utilities, documentation, and model comments; numerical training operations are unchanged.",
+  "runs": [
+    {
+      "dataset": "HumanActivity",
+      "seed": 2024,
+      "test": {
+        "mse": 0.042598774711492704,
+        "mae": 0.11712769380882508,
+        "points": 5910
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 64,
+      "original_best_epoch": 64,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "d19d30097eb8c4133d7d3358eb8f2f3bc03e3026b877f233f8e1145d5937037c",
+      "fit_seconds": 9.170792093966156
+    },
+    {
+      "dataset": "HumanActivity",
+      "seed": 2025,
+      "test": {
+        "mse": 0.04217394782000185,
+        "mae": 0.1163306841390387,
+        "points": 5910
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 93,
+      "original_best_epoch": 93,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "465cc81e960eeb6c99dabf2e77f9d9d89af3b9868e0be3c682e5242a98a81e3e",
+      "fit_seconds": 10.528048348147422
+    },
+    {
+      "dataset": "HumanActivity",
+      "seed": 2026,
+      "test": {
+        "mse": 0.04417731838581324,
+        "mae": 0.1171223338687077,
+        "points": 5910
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 30,
+      "original_best_epoch": 30,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "8dd68279b145238c09ad472d130c9f19a0d60933140016b5491284369a006167",
+      "fit_seconds": 5.161862746812403
+    },
+    {
+      "dataset": "HumanActivity",
+      "seed": 2027,
+      "test": {
+        "mse": 0.041547436399508246,
+        "mae": 0.11603128139541032,
+        "points": 5910
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 49,
+      "original_best_epoch": 49,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "030d587fcfdbde7c0f8afb218534ef5a8c1b290bf9d677aeb7947c45c8cd266d",
+      "fit_seconds": 7.000867726746947
+    },
+    {
+      "dataset": "HumanActivity",
+      "seed": 2028,
+      "test": {
+        "mse": 0.042301357417744025,
+        "mae": 0.11697955704380816,
+        "points": 5910
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 75,
+      "original_best_epoch": 75,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "899152352ad685f29ed70218c896ec78bbab6576433adf3586e42aed6fe4b8b3",
+      "fit_seconds": 9.73033022414893
+    },
+    {
+      "dataset": "USHCN",
+      "seed": 2024,
+      "test": {
+        "mse": 0.16603082159291144,
+        "mae": 0.27290456191353174,
+        "points": 368
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 24,
+      "original_best_epoch": 24,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "e127b7bff8e19c01752c3d9572f980317b0b2d9602f0ee86394c7397851c08c9",
+      "fit_seconds": 18.883109350223094
+    },
+    {
+      "dataset": "USHCN",
+      "seed": 2025,
+      "test": {
+        "mse": 0.16497825539630392,
+        "mae": 0.2685816391654637,
+        "points": 368
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 25,
+      "original_best_epoch": 25,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "43490a5780991f9931a57e121b147f523a809966a213b104f7e991ef343e09f9",
+      "fit_seconds": 17.165200053248554
+    },
+    {
+      "dataset": "USHCN",
+      "seed": 2026,
+      "test": {
+        "mse": 0.16475509560626486,
+        "mae": 0.2691272445346998,
+        "points": 368
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 28,
+      "original_best_epoch": 28,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "8ce27fcd3413691110f2e2a53aa9c9501f280fd2ec1bed537cfb5427dfab1ec5",
+      "fit_seconds": 18.423616420011967
+    },
+    {
+      "dataset": "USHCN",
+      "seed": 2027,
+      "test": {
+        "mse": 0.16468680423239004,
+        "mae": 0.27367596004320227,
+        "points": 368
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 25,
+      "original_best_epoch": 25,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "68e088fe4e23dcf39be74763b3e1365556be179a4a5f2009c2c36370d0943176",
+      "fit_seconds": 19.186120361089706
+    },
+    {
+      "dataset": "USHCN",
+      "seed": 2028,
+      "test": {
+        "mse": 0.16367106852324112,
+        "mae": 0.2691141833429751,
+        "points": 368
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 27,
+      "original_best_epoch": 27,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "16e7084717c0b19b6670ba931f1b83dd9c3647991c6383fa2a8f4f850b50ac5c",
+      "fit_seconds": 17.878139886073768
+    },
+    {
+      "dataset": "PhysioNet",
+      "seed": 2024,
+      "test": {
+        "mse": 0.2873378952532583,
+        "mae": 0.3515161812587937,
+        "points": 27008
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 50,
+      "original_best_epoch": 50,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "2f6929e7fa5029824d14ea29cb9ce06e4a4d355aac9ac9de1f661329e6ed1ff4",
+      "fit_seconds": 19.20116589497775
+    },
+    {
+      "dataset": "PhysioNet",
+      "seed": 2025,
+      "test": {
+        "mse": 0.28762869812300984,
+        "mae": 0.3529512305960271,
+        "points": 27008
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 91,
+      "original_best_epoch": 91,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "cb36d3632642aa28f140846da0fd14bb689922f975a5d07afee5feb17218c201",
+      "fit_seconds": 28.05766263976693
+    },
+    {
+      "dataset": "PhysioNet",
+      "seed": 2026,
+      "test": {
+        "mse": 0.28775727692373554,
+        "mae": 0.3536476749944461,
+        "points": 27008
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 42,
+      "original_best_epoch": 42,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "7f3de0fbb846aa90ab618eb23d0845e7bc739ed90679350a2074cadcbb382c1b",
+      "fit_seconds": 16.658397232647985
+    },
+    {
+      "dataset": "PhysioNet",
+      "seed": 2027,
+      "test": {
+        "mse": 0.2877212271306187,
+        "mae": 0.35337312526612485,
+        "points": 27008
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 80,
+      "original_best_epoch": 80,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "33b7cbae7a687a486811e7c06137e4ce4a1fd235a9d2c0592b22ecf4b990a7c9",
+      "fit_seconds": 27.003029878716916
+    },
+    {
+      "dataset": "PhysioNet",
+      "seed": 2028,
+      "test": {
+        "mse": 0.28766416938384,
+        "mae": 0.3517644077680687,
+        "points": 27008
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 33,
+      "original_best_epoch": 33,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "03d854e391c3aa0aa9bcb30ae499499be1c3f8bf2c11aa87e6647a60f8494de6",
+      "fit_seconds": 15.287726398091763
+    },
+    {
+      "dataset": "MIMIC",
+      "seed": 2024,
+      "test": {
+        "mse": 0.4055615478356507,
+        "mae": 0.38371366160656095,
+        "points": 23015
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 193,
+      "original_best_epoch": 193,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "713a644c51f0b4059a26bb68270fb5c2af3f840dbca18a014f14bc5c4ab58ea8",
+      "fit_seconds": 156.68270384240896
+    },
+    {
+      "dataset": "MIMIC",
+      "seed": 2025,
+      "test": {
+        "mse": 0.4047760122474473,
+        "mae": 0.3851852307598305,
+        "points": 23015
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 132,
+      "original_best_epoch": 132,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "9b47b15a23b795d36baac4160947c547562358ce6a1640ac01c5c20b4f0ad912",
+      "fit_seconds": 129.4209196860902
+    },
+    {
+      "dataset": "MIMIC",
+      "seed": 2026,
+      "test": {
+        "mse": 0.4035611965022811,
+        "mae": 0.38341214289593745,
+        "points": 23015
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 92,
+      "original_best_epoch": 92,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "75007e07348b71a45b7c654fad1b056facad75ead63ac2e2665319e4c4b21179",
+      "fit_seconds": 99.13606137828901
+    },
+    {
+      "dataset": "MIMIC",
+      "seed": 2027,
+      "test": {
+        "mse": 0.4054952697289811,
+        "mae": 0.3853609398761677,
+        "points": 23015
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 118,
+      "original_best_epoch": 118,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "184de1f626b4b01110d81e185888855ac283c02c618e8450c8b92e52e1f7a984",
+      "fit_seconds": 121.56861401814967
+    },
+    {
+      "dataset": "MIMIC",
+      "seed": 2028,
+      "test": {
+        "mse": 0.40440367525255266,
+        "mae": 0.3842474507114925,
+        "points": 23015
+      },
+      "absolute_difference": {
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "best_epoch": 125,
+      "original_best_epoch": 125,
+      "selected_weights_exact": true,
+      "validation_history_exact": true,
+      "fresh_result_sha256": "695f549d1896c34133aea96c001aa8772eb792a14f4af0049d876ed0c5c00fec",
+      "fit_seconds": 121.19204413006082
+    }
+  ]
+}
